@@ -11,7 +11,7 @@ int main(void)
 
 	for (tens = 0; tens < 9; tens++)
 	{
-		for (unit = tens + 1; unit < 20; unit++)
+		for (unit = tens + 1; unit < 10; unit++)
 		{
 			putchar((tens % 10) + '0');
 			putchar((unit % 10) + '0');
