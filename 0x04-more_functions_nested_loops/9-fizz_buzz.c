@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * fizzbuzz - checks for fizzbuzz
+ * main - checks for fizzbuzz
  * Return: 0
  */
 
-int fizzbuzz(void)
+int main(void)
 {
 	int n = 100;
 
