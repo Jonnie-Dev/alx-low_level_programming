@@ -4,7 +4,6 @@
  * print_diagonal - draws a diagonal line on the terminal
  *
  * @n: number of times
- * Return: 0
  */
 
 void print_diagonal(int n)
