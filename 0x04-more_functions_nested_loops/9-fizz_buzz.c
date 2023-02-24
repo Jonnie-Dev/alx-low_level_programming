@@ -2,10 +2,10 @@
 
 /**
  * fizzbuzz - checks for fizzbuzz
- * Return: fizzbuzz
+ * Return: 0
  */
 
-void fizzbuzz(void)
+int fizzbuzz(void)
 {
 	int n = 100;
 
@@ -14,13 +14,17 @@ void fizzbuzz(void)
 	for (i = 1; i <= n; i++)
 	{
 		if ((i % 15) == 0)
-			printf("%s ", "FizzBuzz");
+			printf("FizzBuzz");
 		else if ((i % 3) == 0)
-			printf("%s ", "Fizz");
+			printf("Fizz");
 		else if ((i % 5) == 0)
-			printf("%s ", "Buzz");
+			printf("Buzz");
 		else
-			printf("%d ", i);
+			printf("%d", i);
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
+
+	return (0);
 }
